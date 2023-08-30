@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.side-bar {
+    height: 100vh;
+    width: 250px;
+    border-right: 1px solid rgb(184, 184, 184);
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 10px;
+    position: fixed;
+}
+
+#insta {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-des {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.logo-des span {
+    margin-left: 10px;
+}
+
+.logo-des:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+#more {
+    margin-left: 10px;
+    position: relative;
+    top: 80px;
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#more:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+.circle-pic {
+    border-radius: 50%;
+    border: 3px solid rgb(255, 0, 0);
+    padding: 1px;
+}
+
+.content {
+
+    margin-left: 400px;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.profile-group {
+    display: flex;
+    gap: 20px;
+}
+
+.font-1 {
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+
+.caption-1 {
+
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    bottom: 10px;
+}
+
+.post-group {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.post {
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.caption-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    bottom: 40px;
+    left: 45px;
+}
+
+.button-1 {
+    border: none;
+    background-color: white;
+}
+
+.reaction {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.recomendation {
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 200px;
+}
